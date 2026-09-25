@@ -2,7 +2,8 @@
 
 In this lab I investigated a compromised AWS account using CloudTrail logs loaded into Splunk. I started with nothing except the logs and tried to rebuild what the attacker did: how they got in, what they touched, and how they tried to stay in the environment.
 
-I'm doing these labs to get better at cloud log analysis for SOC work. I already built an attack myself in my IAM compromise lab, so this time I wanted to be on the other side and investigate an incident I didn't design.
+I'm doing these labs to get better at cloud log analysis for SOC work. I already built an attack myself in my IAM compromise lab 
+- [Cloud-IAM-Compromise-Lab](https://github.com/hakimfakhar/Cloud-IAM-Compromise-Lab) , so this time I wanted to be on the other side and investigate an incident I didn't design.
 
 The lab is **[AWSRaid](https://cyberdefenders.org/blueteam-ctf-challenges/awsraid/)** from CyberDefenders (Cloud Forensics, Easy). All credit for the scenario and the data goes to them. I'm sharing my own approach and notes here, not the lab files.
 
